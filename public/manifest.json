@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "certl",
+  "version": "1.0",
+  "description": "React + Typescript + Antd Chrome 扩展程序模版",
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_48.png"
+  },
+  "browser_action": {
+    "default_title": "React + Typescript + Antd Chrome 扩展程序模版"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "\u003Call_urls\u003E",
+    "cookies",
+    "storage",
+    "tabs"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "extend": {
+    "prompt": [
+      {
+        "type": "input",
+        "message": "请输入项目描述",
+        "name": "description",
+        "default": "基于React+Typescript的Chrome扩展程序模版"
+      },
+      {
+        "type": "input",
+        "message": "版本号",
+        "name": "version",
+        "default": "0.0.1"
+      }
+    ],
+    "updatePkg": {
+      "description": "{{description}}",
+      "version": "{{version}}"
+    }
+  }
+}
